@@ -1,0 +1,41 @@
+{
+    "id": "countries",
+    "columns": [
+      {
+        "display_name": "Country Num",
+        "field_name": "ctry_num",
+        "type": "number",
+        "group": true,
+        "sort": true
+      },
+      {
+        "display_name": "Country",
+        "field_name": "ctry",
+        "type": "string",
+        "group": true,
+        "sort": true
+      },
+      {
+        "display_name": "Country ISO Code",
+        "field_name": "ctry_iso_cd",
+        "type": "string",
+        "group": true,
+        "sort": true
+      },
+      {
+        "display_name": "Currency Code",
+        "field_name": "ccy",
+        "type": "string",
+        "group": true,
+        "sort": true
+      },
+      {
+        "display_name": "Currency Name",
+        "field_name": "ccy_nm",
+        "type": "string",
+        "group": true,
+        "sort": true
+      }      
+    ],
+    "type": "Form"
+  }
