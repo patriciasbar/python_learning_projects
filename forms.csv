@@ -1,0 +1,23 @@
+display_name,field_name,type,group,sort,id,type_form
+Country Num,ctry_num,number,True,True,countries,form
+Country,ctry,string,True,True,countries,form
+Country ISO Code,ctry_iso_cd,string,True,True,countries,form
+Currency Code,ccy,string,True,True,countries,form
+Currency Name,ccy_nm,string,True,True,countries,form
+Product ID,PRD_ID,string,True,True,products,form
+Product Desc,PRD_DESC,string,True,True,products,form
+Product Group,PRD_GRP,string,True,True,products,form
+Price Unit,PRC_UNIT,double,False,True,products,form
+Min Quantity,MIN_QTY,number,False,True,products,form
+Max Quantity,MAX_QTY,number,False,True,products,form
+Country Num,ctry_num,number,True,True,countries,form
+Country,ctry,string,True,True,countries,form
+Country ISO Code,ctry_iso_cd,string,True,True,countries,form
+Currency Code,ccy,string,True,True,countries,form
+Currency Name,ccy_nm,string,True,True,countries,form
+Product ID,PRD_ID,string,True,True,products,form
+Product Desc,PRD_DESC,string,True,True,products,form
+Product Group,PRD_GRP,string,True,True,products,form
+Price Unit,PRC_UNIT,double,False,True,products,form
+Min Quantity,MIN_QTY,number,False,True,products,form
+Max Quantity,MAX_QTY,number,False,True,products,form
