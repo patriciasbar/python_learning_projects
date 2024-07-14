@@ -4,8 +4,8 @@ import os
 import pandas as pd
 
 
-output_file = "forms.csv"
-json_files = glob.glob('files/*.json')
+output_file = ("json_to_csv/sample_files/forms.csv")
+json_files = glob.glob("json_to_csv/files/*.json")
 
 
 def read_json(json_file):
@@ -79,3 +79,4 @@ def dataframe_to_csv(details_df, csv_file=output_file, mode="w"):
 if __name__ == "__main__":
     for filename in json_files:
         dataframe_to_csv(normalize_data(read_json(filename)), mode="a")
+        
