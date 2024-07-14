@@ -1,0 +1,49 @@
+{
+    "id": "products",
+    "columns": [
+      {
+        "display_name": "Product ID",
+        "field_name": "PRD_ID",
+        "type": "string",
+        "group": true,
+        "sort": true
+      },
+      {
+        "display_name": "Product Desc",
+        "field_name": "PRD_DESC",
+        "type": "string",
+        "group": true,
+        "sort": true
+      },
+      {
+        "display_name": "Product Group",
+        "field_name": "PRD_GRP",
+        "type": "string",
+        "group": true,
+        "sort": true
+      },
+      {
+        "display_name": "Price Unit",
+        "field_name": "PRC_UNIT",
+        "type": "double",
+        "group": false,
+        "sort": true
+      },   
+      {
+        "display_name": "Min Quantity",
+        "field_name": "MIN_QTY",
+        "type": "number",
+        "group": false,
+        "sort": true
+      },
+      {
+        "display_name": "Max Quantity",
+        "field_name": "MAX_QTY",
+        "type": "number",
+        "group": false,
+        "sort": true
+      }                             
+
+    ],
+    "type": "Form"
+  }
