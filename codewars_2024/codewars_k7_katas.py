@@ -82,3 +82,13 @@ def square_digits(num):
     return int(squared_digits)
 
 
+def high_and_low(numbers):
+    numbers_list = [int(num) for num in numbers.split()]
+    return f"{max(numbers_list)} {min(numbers_list)}"
+
+
+
+
+
+
+
