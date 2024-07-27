@@ -1,7 +1,10 @@
 # Python Learning Projects
 
 This repository contains various Python scripts demonstrating different concepts and functionalities.
+
 json_to_csv.py: This module reads a JSON file containing a specific form grid and converts its contents into a business-friendly, table-like CSV file.
+
+codewars_2024: A collection of Codewars katas I've been practicing in my free time.
 
 
 ## Installation
