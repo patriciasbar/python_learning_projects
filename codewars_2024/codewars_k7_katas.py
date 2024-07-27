@@ -105,4 +105,25 @@ def get_middle(s):
     else:
         return s[middle]
 
+def accum(st):
+    count = 1
+    accum = ""
+    for letter in st:
+        accum += (letter*count).title() + "-"
+        count += 1    
+    return accum.removesuffix("-")
+        
+#ChatGPT proposed solution when I was reviewing my code for Pythonic fashion /
+#it gave me a simplified version of it and got some better understanding of it
+def accum(st):
+    return '-'.join((letter * (i + 1)).title() for i, letter in enumerate(st))
+
+
+
+
+
+
+
+
+
 
