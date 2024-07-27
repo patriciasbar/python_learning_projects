@@ -87,8 +87,22 @@ def high_and_low(numbers):
     return f"{max(numbers_list)} {min(numbers_list)}"
 
 
+def descending_order(num):
+    substr_num_list = [n for n in str(num)]
+    inverted_num = "".join([num for num in sorted(substr_num_list, reverse=True)])
+    return int(inverted_num)
 
 
+def filter_list(l):
+    new_list = [num for num in l if not isinstance(num, str)]
+    return new_list
 
+
+def get_middle(s):
+    middle = len(s) // 2
+    if len(s) % 2 == 0:
+        return s[middle -1:middle + 1]
+    else:
+        return s[middle]
 
 
