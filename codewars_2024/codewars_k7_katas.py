@@ -6,14 +6,12 @@ def digitize(n):
         return digits_list
 
 
-
 def sort_gift_code(code):
     code_list = []
     if isinstance(code, str) and len(code) <= 26:
         code_list = [letter for letter in code]
         sorted_code = "".join(letter for letter in sorted(code_list))
         return sorted_code
-
     else:
         return f"Invalid Input"
     
@@ -30,6 +28,7 @@ def create_array(n):
 def build_string(*args):
     return "I like {0}!".format(",".join(args))
 
+
 def get_grade(s1, s2, s3):
     score = (s1 + s2 + s3) // 3
     if 90 <= score <= 100:
@@ -42,7 +41,8 @@ def get_grade(s1, s2, s3):
         return "D"
     else:
         return "F"
-    
+
+
 def get_count(sentence):
     vowels = "aeiou"
     vowel_count = 0
@@ -50,6 +50,7 @@ def get_count(sentence):
         if letter.lower() in vowels:
             vowel_count += 1
     return vowel_count
+
 
 def stringy(size):
     string = ""
@@ -69,16 +70,15 @@ def two_decimal_places(number):
     return f"{number:.3f}"[:-1]
     
 
-
 def disemvowel(string_):
     vowels = 'aeiou'
     string = ''
     string = ''.join([letter for letter in string_ if not letter.lower() in vowels])
     return string
-    
+
+
 def square_digits(num):
     squared_digits = ''.join([str(int(digit) ** 2) for digit in str(num)])
     return int(squared_digits)
-
 
 
