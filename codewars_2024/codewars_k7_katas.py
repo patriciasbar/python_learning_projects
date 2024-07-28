@@ -119,11 +119,27 @@ def accum(st):
     return '-'.join((letter * (i + 1)).title() for i, letter in enumerate(st))
 
 
+def is_square(n):  
+    if n < 0: #if negative
+        return False
+    else:
+        product =  int(n ** 0.5)
+        return product * product == n
 
 
+def open_or_senior(data):
+    member_category = []
+    senior_min_age = 55
+    min_handicap = 7
 
+    for age, handicap in data:
+        if age >= senior_min_age and handicap > min_handicap:
+            member_category.append("Senior")
+        else:
+            member_category.append("Open")
+    return member_category
 
-
-
-
-
+#ChatGPT proposed solution when I was reviewing my code for Pythonic fashion /
+#it gave me a simplified version of it and got some better understanding of it
+def open_or_senior(data):
+    return ["Senior" if age >= 55 and handicap > 7 else "Open" for age, handicap in data]
