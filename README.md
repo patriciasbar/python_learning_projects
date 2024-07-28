@@ -6,6 +6,8 @@ json_to_csv.py: This module reads a JSON file containing a specific form grid an
 
 codewars_2024: A collection of Codewars katas I've been practicing in my free time.
 
+hackerrank_2024: Contains my solutions to HackerRank challenges for practicing programming skills.
+
 
 ## Installation
 
